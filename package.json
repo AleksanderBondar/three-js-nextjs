@@ -2,11 +2,12 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && next export",
     "start": "next start"
   },
   "dependencies": {
     "@react-three/fiber": "^8.8.10",
+    "firebase": "^9.12.1",
     "next": "latest",
     "react": "18.1.0",
     "react-dom": "18.1.0",
